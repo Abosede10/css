@@ -27,7 +27,7 @@ body
 }
 
 /* Stying for column One */
-.one
+.main-intro
 {
     background: var(--dark-green-bg);
     border-bottom: 1px solid rgb(156, 155, 155);
@@ -35,7 +35,7 @@ body
 
 
 
-.one .intro
+.main-intro .intro
 {
     padding: 4rem  0 0 0;
     text-align: center;
@@ -88,22 +88,22 @@ body
     line-height: 2rem;
     text-align: center;
 }
-/* End Of Column one */
+/* End Of Column Main intro */
 
 
-.two
+.my-skills
 {
     text-align: center;
     margin: 3rem 0;
 }
-.two h1
+.my-skills h1
 {
     color: var(--dark-green-bg);
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.two h4
+.my-skills h4
 {
     color: #0c6a6d;
     font-size: 1.4rem;
@@ -111,14 +111,14 @@ body
     margin-top: 1rem;
 }
 
-.two p
+.my-skills p
 {
     margin-bottom: 2rem;
     font-size: 1rem;
 }
-/* End Of Column Two */
+/* End Of Column My-Skills */
 
-.three
+.services
 {
     background-color: var(--light-green-bg);
     text-align: center;
@@ -129,34 +129,40 @@ body
 
 }
 
-.three h1
+.services h1
 {
     margin-top: 4rem;
     margin-bottom: 1rem;
     color: var(--dark-green-bg);
 }
 
-.three ul
+.services p 
+{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.services ul
 {
     margin-bottom: 3rem;
 }
-.three ul li
+.services ul li
 {
-    line-height: 2rem;
-   
+    line-height: 2.5rem;
+    font-size: 18px;
 }
 
-/* End Of Column Three */
+/* End Of Column Services */
 
 
-.four h1
+.contact-us h1
 {
     text-align: center;
     color: var(--dark-green-bg);
     margin-top: 3rem;
 }
 
-.four h4
+.contact-us h4
 {
     text-align: center;
     color: var(--footer);
@@ -165,7 +171,7 @@ body
     margin-bottom: 2rem;
 }
 
-.four .form
+.contact-us .form
 {
     display: flex;
     /* align-items: center; */
@@ -217,17 +223,17 @@ body
     background-color: #11999E;
     color: #fff;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
 }
-/* End Of Column Four */
+/* End Of Column Contact Us */
 
-.five
+.footer
 {
     background-color: var(--footer);
     text-align: center;
 }
 
-.five .link
+.footer .link
 {
     padding: 2rem 1rem;
 }
@@ -245,7 +251,7 @@ body
 {
     font-size: 18px;
 }
-/* End Of Column Five */
+/* End Of Column Footer */
 
 
 
