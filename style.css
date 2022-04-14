@@ -1,0 +1,276 @@
+:root
+{
+    --dark-green-bg : #66BFBF;
+    --light-green-bg:#ACDBDB;
+    --black : #000;
+    --white-bg : #fff;
+    --footer: #11999E;
+}
+
+*, *::before, *::after  
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 100%;
+}
+
+
+body
+{
+    background-color: var(--white-bg);
+    font-size: 15px;
+}
+
+/* Stying for column One */
+.one
+{
+    background: var(--dark-green-bg);
+    border-bottom: 1px solid rgb(156, 155, 155);
+}
+
+
+
+.one .intro
+{
+    padding: 4rem  0 0 0;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.intro h1
+{
+    font-size: 4.7rem;
+    color: #fff;
+    font-family: "Sacramento", cursive;
+    
+}
+
+.intro p
+{
+    font-size: 17px;
+    
+}
+
+.about
+{
+     display: flex;
+     justify-content: space-around;
+     padding: 100px 5px;
+     
+     
+}
+.about img 
+{
+    
+    text-align: center;
+}
+.about div
+{
+        text-align: center;
+        
+}
+
+.about h3
+{
+    font-size: 28px;
+    color: #fff;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.about p
+{
+    font-size: 17px;
+    line-height: 2rem;
+    text-align: center;
+}
+/* End Of Column one */
+
+
+.two
+{
+    text-align: center;
+    margin: 3rem 0;
+}
+.two h1
+{
+    color: var(--dark-green-bg);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.two h4
+{
+    color: #0c6a6d;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.two p
+{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+/* End Of Column Two */
+
+.three
+{
+    background-color: var(--light-green-bg);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgb(156, 155, 155);
+    border-bottom: 1px solid rgb(156, 155, 155);
+
+}
+
+.three h1
+{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: var(--dark-green-bg);
+}
+
+.three ul
+{
+    margin-bottom: 3rem;
+}
+.three ul li
+{
+    line-height: 2rem;
+   
+}
+
+/* End Of Column Three */
+
+
+.four h1
+{
+    text-align: center;
+    color: var(--dark-green-bg);
+    margin-top: 3rem;
+}
+
+.four h4
+{
+    text-align: center;
+    color: var(--footer);
+    margin-top: 0.7rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.four .form
+{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.form .name
+{
+    text-align: center;
+}
+
+.form .email
+{
+    text-align: center;
+}
+.form .radio-checklist
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    margin-top: 2rem;
+}
+
+.radio-checklist .radio
+{
+    padding-left: 4rem;
+}
+
+.radio-checklist .chcklist
+{
+    padding-right: 7rem;
+}
+
+.form .comment
+{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form .submit-btn
+{
+    text-align: center;
+    margin: 2rem;
+}
+.btn
+{
+    padding: 1rem 1.5rem;
+    background-color: #11999E;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+/* End Of Column Four */
+
+.five
+{
+    background-color: var(--footer);
+    text-align: center;
+}
+
+.five .link
+{
+    padding: 2rem 1rem;
+}
+
+.link a
+{
+    font-size: 16px;
+}
+.link .link-b
+{
+    color: rgb(87, 4, 165);
+}
+
+.copyright
+{
+    font-size: 18px;
+}
+/* End Of Column Five */
+
+
+
+@media screen and (max-width: 768px) and (min-width: 470px)
+{
+ 
+
+    .intro h1
+    {
+        font-size: 3rem;
+    }
+
+    .about
+    {
+       justify-content: center;
+       padding: 30px;
+    }
+    .about div 
+    {
+        padding-left: 40px;
+        
+    }
+
+    .about p 
+    {
+        font-size: 13px;
+    }
+}
